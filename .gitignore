@@ -1,0 +1,74 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Entorno virtual ===
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Archivos de configuración local ===
+*.env
+*.local
+*.ini
+*.cfg
+*.log
+*.pot
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Archivos de migraciones (solo si no quieres subirlas aún) ===
+# Descomenta si prefieres ignorar migraciones temporales
+# */migrations/*
+# !*/migrations/__init__.py
+
+# === Django ===
+db.sqlite3
+media/
+staticfiles/
+static/
+__pycache__/
+
+# === IDEs y editores ===
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# === Archivos temporales ===
+*.swp
+*.tmp
+*.bak
+*.orig
+*.old
+
+# === Archivos de cobertura y pruebas ===
+.coverage
+coverage.xml
+nosetests.xml
+htmlcov/
+pytest_cache/
+
+# === Archivos de Docker (si lo usas más adelante) ===
+*.pid
+*.seed
+*.tar
+*.gz
+*.zip
+*.log
+docker-compose.override.yml
+
+# === Archivos de entorno y variables secretas ===
+.env
+.env.local
+.env.*.local
